@@ -1,5 +1,5 @@
 ﻿using System;
-
+using System.Collections.Generic;
 namespace ConsoleApp147
 {
     class Program
@@ -15,6 +15,16 @@ namespace ConsoleApp147
             for(int i = 0; i <= 10; i++)
             {
                 Console.WriteLine(i);
+            }
+            List<int> VALOR = new List<int>();
+            VALOR.Add(15);
+            VALOR.Add(30);
+            VALOR.Add(45);
+            VALOR.Add(60);
+            
+            foreach(int obj in VALOR )
+            {
+                Console.WriteLine(obj);
             }
         }
     }
