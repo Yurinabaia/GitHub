@@ -11,6 +11,7 @@ namespace ConsoleApp147
             {
                 Console.WriteLine(i);
             }
+            Console.WriteLine("Vamos lá chaqqualhar");
         }
     }
 }
